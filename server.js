@@ -3,7 +3,6 @@ var fs = require('fs');
 
 var express = require('express');
 var { uuid } = require('uuidv4');
-var helmet = require('helmet');
 
 var app = express();
 var PORT = process.env.PORT || 3000;
